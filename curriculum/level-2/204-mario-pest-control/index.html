@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mario Pest Control</h1>
+    </header>
+    <main>
+        <section id="baddieList">
+            <h2>Baddies</h2>
+            <ul>
+                <!-- Example Baddies -->
+                <li class="baddie-item">
+                    <img src="goomba.jpg" alt="Goomba" class="baddie-image">
+                    <div class="baddie-info">
+                        <h3>Goombas</h3>
+                        <p>Price: 5 Coins</p>
+                        <label for="goomba-quantity">Total Caught:</label>
+                        <input type="number" id="goomba-quantity" data-price="5" class="quantity-input" min="0">
+                    </div>
+                </li>
+                <li class="baddie-item">
+                    <img src="bobomb.jpg" alt="Bob-omb" class="baddie-image">
+                    <div class="baddie-info">
+                        <h3>Bob-ombs</h3>
+                        <p>Price: 7 Coins</p>
+                        <label for="bobomb-quantity">Total Caught:</label>
+                        <input type="number" id="bobomb-quantity" data-price="7" class="quantity-input" min="0">
+                    </div>
+                </li>
+                <li class="baddie-item">
+                    <img src="cheepcheep.jpg" alt="Cheep-cheep" class="baddie-image">
+                    <div class="baddie-info">
+                        <h3>Cheep-cheeps</h3>
+                        <p>Price: 11 Coins</p>
+                        <label for="cheepcheep-quantity">Total Caught:</label>
+                        <input type="number" id="cheepcheep-quantity" data-price="11" class="quantity-input" min="0">
+                    </div>
+                </li>
+            </ul>
+            <p>Total Price: <span id="totalPrice">0</span> Coins</p>
+        </section>
+    </main>
+    <footer>
+        <p>Email: <a href="mailto:mario@example.com">mario@example.com</a></p>
+        <p>Website: <a href="http://www.mariopestcontrol.com" target="_blank">www.mariopestcontrol.com</a></p>
+        <p>Address: 123 Mushroom Kingdom, Fantasyland</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

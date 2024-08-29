@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.operation {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.addition {
+    background-color: #ffe0b2;
+}
+
+.subtraction {
+    background-color: #ffccbc;
+}
+
+.multiplication {
+    background-color: #c5e1a5;
+}

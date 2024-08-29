@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Baddie Items */
+.baddie-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.baddie-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.baddie-info {
+    flex: 1;
+}
+
+.baddie-info h3 {
+    margin: 0;
+}
+
+.quantity-input {
+    width: 100%;
+    max-width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .baddie-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .baddie-info {
+        margin-top: 10px;
+    }
+
+    .quantity-input {
+        width: 100%;
+        max-width: 100px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
